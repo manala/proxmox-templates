@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
 
   config.vm.guest = 'debian'
-  config.vm.box   = 'manala/proxmox-dev-debian '
+  config.vm.box   = 'manala/proxmox-dev-debian'
 
   # Provider
   config.vm.provider :virtualbox do |virtualbox|
