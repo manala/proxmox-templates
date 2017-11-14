@@ -3,8 +3,8 @@ BASEDIR:=$(shell dab basedir)
 all: info/init_ok
 	dab bootstrap --minimal
 	dab exec apt-get purge -y isc-dhcp-client isc-dhcp-common
-	dab exec apt-get purge -y postfix
-	dab exec apt-get purge -y iptables libxtables12
+	dab exec apt-get purge -y postfix postfix-sqlite
+	dab exec apt-get purge -y iptables libxtables12 libnfnetlink0 libiptc0 libip6tc0
 	dab install dbus libpam-systemd
 	dab install python
 	sed -i 's/^#PermitRootLogin prohibit-password/PermitRootLogin yes/' -i ${BASEDIR}/etc/ssh/sshd_config
