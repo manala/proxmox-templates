@@ -15,6 +15,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Python
 
 ### Removed
-- ISC dhcp client and dependencies
 - Postfix and dependencies
 - IPTables and dependencies
