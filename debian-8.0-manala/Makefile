@@ -2,7 +2,6 @@
 
 all: info/init_ok
 	dab bootstrap --minimal
-	dab exec apt-get purge -y isc-dhcp-client isc-dhcp-common
 	dab exec apt-get purge -y postfix
 	dab exec apt-get purge -y iptables libxtables10 libnfnetlink0
 	dab install udev systemd systemd-sysv dbus libpam-systemd

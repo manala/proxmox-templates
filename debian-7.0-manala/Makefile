@@ -2,7 +2,6 @@ BASEDIR:=$(shell dab basedir)
 
 all: info/init_ok
 	dab bootstrap --minimal
-	dab exec apt-get purge -y isc-dhcp-client isc-dhcp-common
 	dab exec apt-get purge -y postfix
 	dab exec apt-get purge -y aptitude aptitude-common
 	dab exec apt-get purge -y iptables libnfnetlink0

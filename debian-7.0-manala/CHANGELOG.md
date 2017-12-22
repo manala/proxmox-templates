@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 ### Changed
 - Define deb.debian.org mirror as sources
+- Don't remove ISC dhcp client and dependencies
 
 ### Removed
 - IPTables dependencies (libnfnetlink0)
