@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
-## [2.0.1] - 2017-12-22
+## [2.1.0] - 2018-01-08
 ### Changed
 - Define deb.debian.org mirror as sources
 - Don't remove ISC dhcp client and dependencies
