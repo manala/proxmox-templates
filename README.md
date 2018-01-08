@@ -12,8 +12,8 @@
 ```
   $ vagrant up
   $ vagrant ssh
-  ⇒ cp -a /srv/templates /tmp
-  ⇒ cd /tmp/templates/debian-[7|8|9].0-manala
+  ⇒ cp -a /srv/* /tmp
+  ⇒ cd /tmp/debian-[7|8|9].0-manala
   ⇒ sudo make
-  ⇒ mv debian-[7|8|9].0-manala_*_amd64.tar.gz /srv/templates/debian-9.[7|8|9]-manala/dist/
+  ⇒ mv debian-[7|8|9].0-manala_*_amd64.tar.gz /srv/debian-[7|8|9].0-manala/dist/
 ```

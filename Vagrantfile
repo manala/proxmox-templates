@@ -7,6 +7,6 @@ Vagrant.configure('2') do |config|
   config.vm.box      = 'manala/dab'
   config.vm.hostname = 'packer.templates'
 
-  config.vm.synced_folder '.', '/srv/templates'
+  config.vm.synced_folder '.', '/srv'
 
 end
